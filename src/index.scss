@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app {
+  background-image: url('./assets/floral.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+
+.app.cold{
+  background-image: url('./assets/cold-bg.jpg');
+}
+
+.app.warm {
+  background-image: url('./assets/warm-bg.jpg');
+}
+
+.app.mild{
+  background-image: url('./assets/mild-cold.jpg');
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  overflow: hidden;
+}
+
+.search-box {
+  width: 90vw;
+  margin: 0 5vw;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 3vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 2vw 2vw;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 3vh;
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  color: #FFF;
+  margin-top: 5vh;
+  font-size: 5vh;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 3.5vh;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 3.5vh auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3vw;
+  padding: 2vh 3vw;
+  color: #FFF;
+  font-size: 13vh;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 8vh;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
