@@ -97,3 +97,13 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+footer{
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+  span{
+      font-size: 2vh;
+  }

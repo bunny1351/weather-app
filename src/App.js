@@ -66,6 +66,9 @@ function App() {
         </div>
         ) : ('')}
       </main>
+      <footer>
+        <span>&copy; Bhupender Singh</span>
+      </footer>
     </div>
   );
 }
